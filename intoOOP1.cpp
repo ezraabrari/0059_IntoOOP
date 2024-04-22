@@ -42,11 +42,13 @@ int main () {
     Matakuliah MK;
 
     mhs.nama = "Budi";
-    mhs.umur = "20";
+    mhs.umur = 20;
     mhs.jurusan = "Teknik Informatika";
     mhs.output();
 
-    mk.input();
-    mk.output();
+    MK.input();
+    MK.output();
+
+    return 0;
     
 }
