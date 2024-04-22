@@ -14,3 +14,10 @@ class Mahasiswa {
         }
     
 };
+
+class Matakuliah{
+    private:
+        string KodeMK;
+        string namaMK;
+        int sks;
+}
