@@ -6,5 +6,11 @@ class Mahasiswa {
         string nama;
         int umur;
         string jurusan;
+
+        void output() {
+            cout << "nama : " << nama << endl;
+            cout << " Umur : " << umur << endl;
+            cout << "jurusan : " << jurusan << endl;
+        }
     
 };
