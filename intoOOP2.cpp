@@ -5,7 +5,7 @@ class bangunDatar{
     private:
         float panjang, lebar;
     public:
-        float luas;
+        float Luas;
     
     void input() {
 
@@ -15,14 +15,14 @@ class bangunDatar{
         cin >> lebar;
     }
 
-    float hitungluas() {
-        return panjang*lebar;
+    float hitungLuas() {
+        return panjang * lebar;
     }
 
     void display() {
         cout << "Panjangnya = " << panjang << endl;
         cout << "Lebarnya = " << lebar << endl;
-        cout << "Luasnya = " << luas << endl;
+        cout << "Luasnya = " << hitungLuas() << endl;
     }
 };
 
